@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"name": "Number",
+			"path": ".."
+		},
+		{
+			"name": "GetDataset",
+			"path": "..\\..\\GetDataset"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"deque": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"vector": "cpp",
+			"string_view": "cpp",
+			"initializer_list": "cpp",
+			"*.tcc": "cpp",
+			"chrono": "cpp",
+			"random": "cpp",
+			"limits": "cpp",
+			"tft_espi_stm32.c": "cpp",
+			"tft_espi_rp2040.c": "cpp"
+		}
+	}
+}
