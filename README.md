@@ -1,0 +1,2 @@
+# ThermoGesture_ESP32
+在ESP32上实现热成像手语识别
