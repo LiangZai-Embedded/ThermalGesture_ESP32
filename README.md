@@ -35,3 +35,17 @@
 ## 3. 网络模型部署
 在Linux环境下使用`xxd -i model_quantized.tflite > model.cpp`命令将`tflite`文件转为16进制`unsigned char`数组，数组包含了模型的权重参数和框架(**TensorFlowLite_ESP32库会解析该模型数组**),将`model.cpp`导入ESP32工程文件的`src`文件夹中,更改数组名称为`alignas(8) const unsigned char g_model[]`,进行8字节对齐以及保存进Flash，更改长度名称为`const int g_model_len`
 
+
+## 4.硬件连接
+| ST7789 LCDTFT | ESP32 DevKitC |
+|-------|--------|
+| CS  | 15或接GND |
+| SDA |  23 |
+| SCL |  18 |
+| RES |  4  |
+| DC  |  2  | 
+
+| AMG8833 | ESP32 DevKitC |
+|------------| -------------|
+| SDA |  21 |
+| SCL |  22 |
