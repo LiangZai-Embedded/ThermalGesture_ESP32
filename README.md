@@ -1,7 +1,7 @@
 
 ![_](/4.Img/preface.jpg)
 
-# ThermoGesture_ESP32 - 在ESP32上实现热成像手语识别  
+# ThermalGesture_ESP32 - 在ESP32上实现热成像手语识别  
 **演示视频链接** https://www.bilibili.com/video/BV1jK41117yV/
 
 ## 0. 项目概述 
