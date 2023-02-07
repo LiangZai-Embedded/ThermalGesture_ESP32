@@ -1,6 +1,6 @@
 ![_](/4.Img/preface.jpg)
 
-# ThermalGesture_ESP32 - 在ESP32上实现热成像手语识别  
+# ThermalGesture_ESP32 - 在ESP32上实现基于红外热成像阵列传感器的手势识别  
 **演示视频链接** https://www.bilibili.com/video/BV1jK41117yV/
 
 ## 0. 项目概述 
