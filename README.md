@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-
 ![_](/4.Img/preface.jpg)
 
 # ThermalGesture_ESP32 - 在ESP32上实现热成像手语识别  
@@ -51,4 +48,3 @@
 |------------| -------------|
 | SDA |  21 |
 | SCL |  22 |
->>>>>>> 6e7f11aa09eeb6457aa54d2f14da62f8ac5ae3e7
